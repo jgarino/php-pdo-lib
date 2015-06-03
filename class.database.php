@@ -303,11 +303,11 @@ class Database{
 		return array(self::SQL => $query, self::PARAM_ARRAY => $params);
 	}
 }
--//Usage:
--//$val = Database::GetInstance()->FetchOne($query);
--//echo $val["colomn_name"];
--//$result = Database::GetInstance()->FetchAll($query);
--//foreach($result as $val){
--//	echo $val["colomn_name"];
--//}
--//etc...
+//Usage:
+//$val = Database::GetInstance()->FetchOne($query);
+//echo $val["colomn_name"];
+//$result = Database::GetInstance()->FetchAll($query);
+//foreach($result as $val){
+//	echo $val["colomn_name"];
+//}
+//etc...
